@@ -1,0 +1,6 @@
+# www.yml
+
+- hosts: www
+  remote_user: root
+  roles:
+    - nginx
