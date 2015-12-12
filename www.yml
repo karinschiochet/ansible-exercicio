@@ -1,4 +1,4 @@
-# www.yml
+# www.yml : playbook for web servers
 
 - hosts: www
   remote_user: root
@@ -6,6 +6,5 @@
     - shell: echo 'I":" Beginning to configure web server...'
   roles:
     - nginx
-
-  post_task:
-    -shell: echo 'I":" Done configuring nginx web server...'
+  post_tasks:
+    - shell: echo 'I":" Done configuring nginx web server...'

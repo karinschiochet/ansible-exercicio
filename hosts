@@ -14,4 +14,5 @@
 
 [dns]
 ns2.lab01.local
-server-ansible.lab01.local
+[www]
+server04.lab01.local
