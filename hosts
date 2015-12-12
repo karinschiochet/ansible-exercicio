@@ -16,3 +16,5 @@
 ns2.lab01.local
 [www]
 server04.lab01.local
+[db]
+ns3.lab01.local
