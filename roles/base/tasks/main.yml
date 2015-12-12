@@ -1,4 +1,5 @@
 ---
+# essential tasks. should run on all nodes
 - hosts: all
   remote_user: root
   tasks:
