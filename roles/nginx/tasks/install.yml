@@ -1,0 +1,3 @@
+---
+  - name: install nginx web server and ensure its at the latest version
+    action: yum name=nginx state=latest
